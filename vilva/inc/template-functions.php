@@ -224,13 +224,27 @@ if( ! function_exists( 'vilva_top_bar' ) ) :
  * 
 */
 function vilva_top_bar(){
-    if( ! is_home() && ! is_front_page() && ! ( vilva_is_woocommerce_activated() && ( is_shop() || is_product_category() || is_product_tag() ) ) ){ ?>
-        <div class="top-bar">
-    		<div class="container">
-            <?php vilva_breadcrumb(); ?>
-    		</div>
-    	</div>   
-        <?php 
+    if( ! is_home() && ! is_front_page() && ! ( vilva_is_woocommerce_activated() && ( is_shop() || is_product_category() || is_product_tag() ) ) ){
+        $delicious_settings = get_option('delicious_recipe_settings');
+        $banner_style       = $delicious_settings && isset($delicious_settings['selectedBannerLayout']['id']) ? $delicious_settings['selectedBannerLayout']['id'] : 'default';
+        if( function_exists( 'DEL_RECIPE_PRO' ) 
+            && version_compare( DELICIOUS_RECIPES_PRO_VERSION, '2.2.2', '>' ) 
+            && $banner_style !== 'default' 
+        ) {
+            if( !is_singular( 'recipe' ) ) {
+                echo '<div class="top-bar">';
+                    echo '<div class="container">'; 
+                        vilva_breadcrumb();
+                    echo '</div>';
+                echo '</div>';
+            }
+        } else {
+            echo '<div class="top-bar">';
+                echo '<div class="container">'; 
+                    vilva_breadcrumb(); 
+                echo '</div>';
+            echo '</div>';
+        };
     }    
 }
 endif;

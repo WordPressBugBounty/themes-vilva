@@ -2,38 +2,41 @@
 # This file is distributed under the GNU General Public License v3 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Vilva 1.2.5\n"
+"Project-Id-Version: Vilva 1.2.7\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/vilva\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-06-05T07:56:29+00:00\n"
+"POT-Creation-Date: 2024-12-02T10:12:27+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.9.0\n"
+"X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: vilva\n"
 
 #. Theme Name of the theme
-#: inc/dashboard/dashboard.php:15
-#: inc/dashboard/dashboard.php:16
+#: style.css
 msgid "Vilva"
 msgstr ""
 
 #. Theme URI of the theme
+#: style.css
 msgid "https://blossomthemes.com/wordpress-themes/vilva/"
 msgstr ""
 
 #. Description of the theme
+#: style.css
 msgid "Vilva is an easy to use and mobile friendly multi-purpose blog theme. Whether you want to share your expert fashion tips, your favorite recipes, or create a lifestyle, travel, food, beauty and makeup, coaching, or any other themed blog, Vilva is for you. With Vilva, you can change the look and feel (color and font) of your website with a click. You can flaunt your Instagram posts and increase your followers. Similarly, you can also build an email list and stay in touch with your customers. Vilva is SEO-friendly, speed optimized, translation ready and WooCommerce and RTL compatible. Check demo at https://blossomthemes.com/theme-demo/?theme=vilva, read the documentation at https://docs.blossomthemes.com/docs/vilva/, and get support at https://blossomthemes.com/support-ticket/."
 msgstr ""
 
 #. Author of the theme
-#: inc/template-functions.php:773
+#: style.css
+#: inc/template-functions.php:787
 msgid "Blossom Themes"
 msgstr ""
 
 #. Author URI of the theme
+#: style.css
 msgid "https://blossomthemes.com/"
 msgstr ""
 
@@ -597,7 +600,7 @@ msgid "Primary color of the theme."
 msgstr ""
 
 #: inc/customizer/appearance.php:47
-#: build/dashboard.js:5927
+#: build/dashboard.js:6464
 #: src/pages/Home/index.jsx:77
 msgid "Typography Settings"
 msgstr ""
@@ -656,18 +659,18 @@ msgstr ""
 #: inc/customizer/general.php:416
 #: inc/customizer/general.php:474
 #: inc/customizer/general.php:603
-#: inc/customizer/layout.php:43
-#: inc/customizer/layout.php:99
-#: inc/customizer/layout.php:154
-#: inc/customizer/layout.php:209
-#: inc/customizer/layout.php:264
-#: inc/customizer/layout.php:319
-#: inc/customizer/layout.php:374
+#: inc/customizer/layout.php:44
+#: inc/customizer/layout.php:102
+#: inc/customizer/layout.php:159
+#: inc/customizer/layout.php:215
+#: inc/customizer/layout.php:270
+#: inc/customizer/layout.php:325
+#: inc/customizer/layout.php:380
 msgid "%1$sThis feature is available in Pro version.%2$s %3$sUpgrade to Pro%4$s "
 msgstr ""
 
 #: inc/customizer/footer.php:13
-#: build/dashboard.js:5896
+#: build/dashboard.js:6433
 #: src/pages/Home/index.jsx:38
 msgid "Footer Settings"
 msgstr ""
@@ -785,7 +788,7 @@ msgstr ""
 #: inc/partials.php:31
 #: inc/partials.php:67
 #: inc/template-functions.php:112
-#: inc/template-functions.php:504
+#: inc/template-functions.php:518
 msgid "Read More"
 msgstr ""
 
@@ -867,7 +870,7 @@ msgstr ""
 
 #: inc/customizer/general.php:689
 #: inc/extras.php:391
-#: build/dashboard.js:6384
+#: build/dashboard.js:6921
 #: src/pages/index.js:16
 msgid "Home"
 msgstr ""
@@ -1003,7 +1006,7 @@ msgid "Please install and activate the recommended plugin %1$sBlossomThemes Emai
 msgstr ""
 
 #: inc/customizer/general.php:1078
-#: build/dashboard.js:5882
+#: build/dashboard.js:6419
 #: src/pages/Home/index.jsx:26
 msgid "Instagram Settings"
 msgstr ""
@@ -1106,7 +1109,7 @@ msgid "VIEW PRO THEME"
 msgstr ""
 
 #: inc/customizer/layout.php:15
-#: build/dashboard.js:5875
+#: build/dashboard.js:6412
 #: src/pages/Home/index.jsx:20
 msgid "Layout Settings"
 msgstr ""
@@ -1119,55 +1122,55 @@ msgstr ""
 msgid "Header Layout"
 msgstr ""
 
-#: inc/customizer/layout.php:79
+#: inc/customizer/layout.php:81
 msgid "Slider Layout"
 msgstr ""
 
-#: inc/customizer/layout.php:134
+#: inc/customizer/layout.php:138
 msgid "Home Page Layout"
 msgstr ""
 
-#: inc/customizer/layout.php:189
+#: inc/customizer/layout.php:195
 msgid "Archive Page Layout"
 msgstr ""
 
-#: inc/customizer/layout.php:244
+#: inc/customizer/layout.php:250
 msgid "Featured Area Layout"
 msgstr ""
 
-#: inc/customizer/layout.php:299
+#: inc/customizer/layout.php:305
 msgid "Single Post Layout"
 msgstr ""
 
-#: inc/customizer/layout.php:354
+#: inc/customizer/layout.php:360
 msgid "Pagination Settings"
 msgstr ""
 
-#: inc/customizer/layout.php:408
+#: inc/customizer/layout.php:414
 msgid "General Sidebar Layout"
 msgstr ""
 
-#: inc/customizer/layout.php:428
+#: inc/customizer/layout.php:434
 msgid "Page Sidebar Layout"
 msgstr ""
 
-#: inc/customizer/layout.php:429
+#: inc/customizer/layout.php:435
 msgid "This is the general sidebar layout for pages. You can override the sidebar layout for individual page in respective page."
 msgstr ""
 
-#: inc/customizer/layout.php:455
+#: inc/customizer/layout.php:461
 msgid "Post Sidebar Layout"
 msgstr ""
 
-#: inc/customizer/layout.php:456
+#: inc/customizer/layout.php:462
 msgid "This is the general sidebar layout for posts & custom post. You can override the sidebar layout for individual post in respective post."
 msgstr ""
 
-#: inc/customizer/layout.php:482
+#: inc/customizer/layout.php:488
 msgid "Default Sidebar Layout"
 msgstr ""
 
-#: inc/customizer/layout.php:483
+#: inc/customizer/layout.php:489
 msgid "This is the general sidebar layout for whole site."
 msgstr ""
 
@@ -1199,7 +1202,7 @@ msgstr ""
 msgid "Site Title color of the theme."
 msgstr ""
 
-#: inc/dashboard/dashboard.php:108
+#: inc/dashboard/dashboard.php:106
 msgid "Sorry, you are not allowed to do that."
 msgstr ""
 
@@ -1335,52 +1338,52 @@ msgstr ""
 msgid "Skip to Content"
 msgstr ""
 
-#: inc/template-functions.php:304
+#: inc/template-functions.php:318
 msgid "%1$s Showing:  %2$s - %3$s of %4$s RESULTS %5$s"
 msgstr ""
 
-#: inc/template-functions.php:482
+#: inc/template-functions.php:496
 msgid "Pages:"
 msgstr ""
 
 #. translators: %s: Name of current post. Only visible to screen readers
-#: inc/template-functions.php:522
+#: inc/template-functions.php:536
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr ""
 
-#: inc/template-functions.php:560
+#: inc/template-functions.php:574
 msgid "Previous Article"
 msgstr ""
 
-#: inc/template-functions.php:572
+#: inc/template-functions.php:586
 msgid "Next Article"
 msgstr ""
 
-#: inc/template-functions.php:586
+#: inc/template-functions.php:600
 msgid "Previous"
 msgstr ""
 
-#: inc/template-functions.php:587
+#: inc/template-functions.php:601
 msgid "Next"
 msgstr ""
 
-#: inc/template-functions.php:588
+#: inc/template-functions.php:602
 msgid "Page"
 msgstr ""
 
-#: inc/template-functions.php:613
+#: inc/template-functions.php:627
 msgid "ALL POSTS BY: "
 msgstr ""
 
-#: inc/template-functions.php:772
+#: inc/template-functions.php:786
 msgid " Vilva | Developed By "
 msgstr ""
 
-#: inc/template-functions.php:774
+#: inc/template-functions.php:788
 msgid " Powered by %s. "
 msgstr ""
 
-#: inc/template-functions.php:774
+#: inc/template-functions.php:788
 msgid "https://wordpress.org/"
 msgstr ""
 
@@ -1689,7 +1692,7 @@ msgid "Upgrade message from the plugin author:"
 msgstr ""
 
 #: inc/tgmpa/class-tgm-plugin-activation.php:2867
-#: build/dashboard.js:6332
+#: build/dashboard.js:6869
 #: src/pages/UsefulPlugins/index.jsx:171
 msgid "Install"
 msgstr ""
@@ -1699,7 +1702,7 @@ msgid "Update"
 msgstr ""
 
 #: inc/tgmpa/class-tgm-plugin-activation.php:2876
-#: build/dashboard.js:6338
+#: build/dashboard.js:6875
 #: src/pages/UsefulPlugins/index.jsx:181
 msgid "Activate"
 msgstr ""
@@ -1792,19 +1795,19 @@ msgid "Hide Details"
 msgstr ""
 
 #: inc/tgmpa/recommended-plugins.php:51
-#: build/dashboard.js:6186
+#: build/dashboard.js:6723
 #: src/pages/UsefulPlugins/index.jsx:12
 msgid "BlossomThemes Toolkit"
 msgstr ""
 
 #: inc/tgmpa/recommended-plugins.php:56
-#: build/dashboard.js:6190
+#: build/dashboard.js:6727
 #: src/pages/UsefulPlugins/index.jsx:17
 msgid "BlossomThemes Email Newsletter"
 msgstr ""
 
 #: inc/tgmpa/recommended-plugins.php:61
-#: build/dashboard.js:6206
+#: build/dashboard.js:6743
 #: src/pages/UsefulPlugins/index.jsx:37
 msgid "Smash Balloon Social Photo Feed"
 msgstr ""
@@ -1814,7 +1817,7 @@ msgid "AffiliateX"
 msgstr ""
 
 #: inc/tgmpa/recommended-plugins.php:71
-#: build/dashboard.js:6198
+#: build/dashboard.js:6735
 #: src/pages/UsefulPlugins/index.jsx:27
 msgid "Regenerate Thumbnails"
 msgstr ""
@@ -1978,215 +1981,215 @@ msgstr ""
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
 msgstr ""
 
-#: build/dashboard.js:5413
+#: build/dashboard.js:5953
 #: src/components/TabHeader/index.jsx:7
 msgid "View Website"
 msgstr ""
 
-#: build/dashboard.js:5417
+#: build/dashboard.js:5957
 #: src/components/TabHeader/index.jsx:12
 msgid "View Tutorials "
 msgstr ""
 
-#: build/dashboard.js:5421
+#: build/dashboard.js:5961
 #: src/components/TabHeader/index.jsx:17
 msgid "Contact Support"
 msgstr ""
 
-#: build/dashboard.js:5425
+#: build/dashboard.js:5965
 #: src/components/TabHeader/index.jsx:22
 msgid "Docs"
 msgstr ""
 
-#: build/dashboard.js:5489
+#: build/dashboard.js:6029
 #: src/components/Tab/index.jsx:13
 msgid "Pro Logo"
 msgstr ""
 
-#: build/dashboard.js:5706
+#: build/dashboard.js:6243
 #: src/pages/FAQ/index.jsx:8
 msgid "What is the difference between Free and Pro?"
 msgstr ""
 
-#: build/dashboard.js:5707
+#: build/dashboard.js:6244
 #: src/pages/FAQ/index.jsx:11
 msgid "Both Free and Pro version of the themes are well-built. However, the Pro version comes with many additional features."
 msgstr ""
 
-#: build/dashboard.js:5707
+#: build/dashboard.js:6244
 #: src/pages/FAQ/index.jsx:12
 msgid "With the Pro version, you can change the look and feel of your website in seconds. In just a few clicks, you can change the color and typography of your website. The premium version lets you have better control over the theme as it comes with more customization options. Not just that, the theme also has more sections and layout options as compared to the free version. The Pro version is multi-language compatible as well."
 msgstr ""
 
-#: build/dashboard.js:5709
+#: build/dashboard.js:6246
 #: src/pages/FAQ/index.jsx:13
 msgid "Overall, you will have more control over your website with the Pro version. You can find out more about the difference between Free and Pro versions %s."
 msgstr ""
 
-#: build/dashboard.js:5713
+#: build/dashboard.js:6250
 #: src/pages/FAQ/index.jsx:18
 msgid "What are the advantages of upgrading to the Premium version?"
 msgstr ""
 
-#: build/dashboard.js:5714
+#: build/dashboard.js:6251
 #: src/pages/FAQ/index.jsx:19
 msgid "With Premium version, besides the extra features and frequent updates, you get premium support. If you run into any theme issues, you will get a lot quicker response compared to the free support."
 msgstr ""
 
-#: build/dashboard.js:5716
+#: build/dashboard.js:6253
 #: src/pages/FAQ/index.jsx:22
 msgid "Upgrading to the Pro version- will I lose my changes?"
 msgstr ""
 
-#: build/dashboard.js:5717
+#: build/dashboard.js:6254
 #: src/pages/FAQ/index.jsx:25
 msgid "When you upgrade to the Pro theme, your posts, pages, media, categories, and other data will remain intact-- all your data is saved."
 msgstr ""
 
-#: build/dashboard.js:5717
+#: build/dashboard.js:6254
 #: src/pages/FAQ/index.jsx:26
 msgid "However, since the Pro version comes with added features and settings, you will need to set up the additional features in the customizer. This process is simple and only takes a few minutes."
 msgstr ""
 
-#: build/dashboard.js:5717
+#: build/dashboard.js:6254
 #: src/pages/FAQ/index.jsx:27
 msgid "The Pro version is built with lots of flexibility in mind for future upgrades. Therefore, it is slightly different than the free theme but extremely flexible and easy-to-use."
 msgstr ""
 
-#: build/dashboard.js:5719
+#: build/dashboard.js:6256
 #: src/pages/FAQ/index.jsx:32
 msgid "How do I change the copyright text?"
 msgstr ""
 
-#: build/dashboard.js:5722
+#: build/dashboard.js:6259
 #: src/pages/FAQ/index.jsx:34
 msgid "You can change the copyright text going to %1$s Appearance > Customize > Footer Settings. %2$s However, if you want to hide the author credit text, please %3$s."
 msgstr ""
 
-#: build/dashboard.js:5726
+#: build/dashboard.js:6263
 #: src/pages/FAQ/index.jsx:38
 msgid "Why is my theme not working well?"
 msgstr ""
 
-#: build/dashboard.js:5727
+#: build/dashboard.js:6264
 #: src/pages/FAQ/index.jsx:41
 msgid "If your customizer is not loading properly or you are having issues with the theme, it might be due to the plugin conflict."
 msgstr ""
 
-#: build/dashboard.js:5729
+#: build/dashboard.js:6266
 #: src/pages/FAQ/index.jsx:42
 msgid "To solve the issue, deactivate all the plugins first, except the ones recommended by the theme. Then, hard reload your website using %1$s \"Ctrl+Shift+R\" %2$s on Windows. If the issues are fixed, start activating the plugins one by one, and reload and check your site each time. This will help you find out the plugin that is causing the problem."
 msgstr ""
 
-#: build/dashboard.js:5733
+#: build/dashboard.js:6270
 #: src/pages/FAQ/index.jsx:43
 msgid "If this didn't help, please %s."
 msgstr ""
 
-#: build/dashboard.js:5737
+#: build/dashboard.js:6274
 #: src/pages/FAQ/index.jsx:48
 msgid "How can I solve my issues quickly and get faster support?"
 msgstr ""
 
-#: build/dashboard.js:5738
+#: build/dashboard.js:6275
 #: src/pages/FAQ/index.jsx:51
 msgid "Before you send us a support ticket for any issues, please make sure you have updated the theme to the latest version. We might have fixed the bug in the theme update."
 msgstr ""
 
-#: build/dashboard.js:5738
+#: build/dashboard.js:6275
 #: src/pages/FAQ/index.jsx:52
 msgid "When you submit the support ticket, please try to provide as much details as possible so that we can solve your problem faster. We recommend you to send us a screenshot(s) with issues explained and your website's address (URL). You can contact us "
 msgstr ""
 
-#: build/dashboard.js:5741
+#: build/dashboard.js:6278
 #: src/pages/FAQ/index.jsx:52
 msgid "here."
 msgstr ""
 
-#: build/dashboard.js:5741
+#: build/dashboard.js:6278
 #: src/pages/FAQ/index.jsx:53
 msgid "Also, you might experience a slower response time during the weekend, so please bear with us."
 msgstr ""
 
-#: build/dashboard.js:5796
-#: build/dashboard.js:5942
+#: build/dashboard.js:6333
+#: build/dashboard.js:6479
 #: src/pages/FreePro/index.jsx:9
 #: src/pages/Home/index.jsx:97
 msgid "We Value Your Feedback!"
 msgstr ""
 
-#: build/dashboard.js:5798
-#: build/dashboard.js:5944
+#: build/dashboard.js:6335
+#: build/dashboard.js:6481
 #: src/pages/FreePro/index.jsx:11
 #: src/pages/Home/index.jsx:99
 msgid "Your review helps us improve and assists others in making informed choices. Share your thoughts today!"
 msgstr ""
 
-#: build/dashboard.js:5802
-#: build/dashboard.js:5948
+#: build/dashboard.js:6339
+#: build/dashboard.js:6485
 #: src/pages/FreePro/index.jsx:13
 #: src/pages/Home/index.jsx:101
 msgid "Leave a Review"
 msgstr ""
 
-#: build/dashboard.js:5805
-#: build/dashboard.js:5951
+#: build/dashboard.js:6342
+#: build/dashboard.js:6488
 #: src/pages/FreePro/index.jsx:17
 #: src/pages/Home/index.jsx:105
 msgid "Knowledge Base"
 msgstr ""
 
-#: build/dashboard.js:5806
-#: build/dashboard.js:5952
+#: build/dashboard.js:6343
+#: build/dashboard.js:6489
 #: src/pages/FreePro/index.jsx:18
 #: src/pages/Home/index.jsx:106
 msgid "Need help using our theme? Visit our well-organized Knowledge Base!"
 msgstr ""
 
-#: build/dashboard.js:5810
-#: build/dashboard.js:5956
+#: build/dashboard.js:6347
+#: build/dashboard.js:6493
 #: src/pages/FreePro/index.jsx:20
 #: src/pages/Home/index.jsx:108
 msgid "Explore"
 msgstr ""
 
-#: build/dashboard.js:5813
-#: build/dashboard.js:5959
+#: build/dashboard.js:6350
+#: build/dashboard.js:6496
 #: src/pages/FreePro/index.jsx:24
 #: src/pages/Home/index.jsx:112
 msgid "Need Assistance? "
 msgstr ""
 
-#: build/dashboard.js:5814
-#: build/dashboard.js:5960
+#: build/dashboard.js:6351
+#: build/dashboard.js:6497
 #: src/pages/FreePro/index.jsx:25
 #: src/pages/Home/index.jsx:113
 msgid "If you need help or have any questions, don't hesitate to contact our support team. We're here to assist you!"
 msgstr ""
 
-#: build/dashboard.js:5818
-#: build/dashboard.js:5964
+#: build/dashboard.js:6355
+#: build/dashboard.js:6501
 #: src/pages/FreePro/index.jsx:27
 #: src/pages/Home/index.jsx:115
 msgid "Submit a Ticket"
 msgstr ""
 
-#: build/dashboard.js:5828
+#: build/dashboard.js:6365
 #: src/pages/FreePro/index.jsx:35
 msgid "Free vs Pro image"
 msgstr ""
 
-#: build/dashboard.js:5861
+#: build/dashboard.js:6398
 #: src/pages/Home/index.jsx:8
 msgid "Site Identity"
 msgstr ""
 
-#: build/dashboard.js:5862
-#: build/dashboard.js:5869
-#: build/dashboard.js:5876
-#: build/dashboard.js:5883
-#: build/dashboard.js:5890
-#: build/dashboard.js:5897
+#: build/dashboard.js:6399
+#: build/dashboard.js:6406
+#: build/dashboard.js:6413
+#: build/dashboard.js:6420
+#: build/dashboard.js:6427
+#: build/dashboard.js:6434
 #: src/pages/Home/index.jsx:9
 #: src/pages/Home/index.jsx:15
 #: src/pages/Home/index.jsx:21
@@ -2196,28 +2199,28 @@ msgstr ""
 msgid "Customize"
 msgstr ""
 
-#: build/dashboard.js:5868
+#: build/dashboard.js:6405
 #: src/pages/Home/index.jsx:14
 msgid "Color Settings"
 msgstr ""
 
-#: build/dashboard.js:5901
+#: build/dashboard.js:6438
 #: src/pages/Home/index.jsx:46
 msgid "Header Layouts"
 msgstr ""
 
-#: build/dashboard.js:5902
+#: build/dashboard.js:6439
 #: src/pages/Home/index.jsx:47
 msgid "Choose from different unique header layouts."
 msgstr ""
 
-#: build/dashboard.js:5903
-#: build/dashboard.js:5908
-#: build/dashboard.js:5918
-#: build/dashboard.js:5923
-#: build/dashboard.js:5928
-#: build/dashboard.js:5933
-#: build/dashboard.js:5938
+#: build/dashboard.js:6440
+#: build/dashboard.js:6445
+#: build/dashboard.js:6455
+#: build/dashboard.js:6460
+#: build/dashboard.js:6465
+#: build/dashboard.js:6470
+#: build/dashboard.js:6475
 #: src/pages/Home/index.jsx:48
 #: src/pages/Home/index.jsx:54
 #: src/pages/Home/index.jsx:66
@@ -2228,289 +2231,289 @@ msgstr ""
 msgid "Learn More"
 msgstr ""
 
-#: build/dashboard.js:5906
+#: build/dashboard.js:6443
 #: src/pages/Home/index.jsx:52
 msgid "Multiple Layouts"
 msgstr ""
 
-#: build/dashboard.js:5907
+#: build/dashboard.js:6444
 #: src/pages/Home/index.jsx:53
 msgid "Choose layouts for blogs, banners, posts and more."
 msgstr ""
 
-#: build/dashboard.js:5911
+#: build/dashboard.js:6448
 #: src/pages/Home/index.jsx:58
 msgid "Multiple Sidebar"
 msgstr ""
 
-#: build/dashboard.js:5912
+#: build/dashboard.js:6449
 #: src/pages/Home/index.jsx:59
 msgid "Set different sidebars for posts and pages."
 msgstr ""
 
-#: build/dashboard.js:5916
+#: build/dashboard.js:6453
 #: src/pages/Home/index.jsx:64
 msgid "Top Bar Settings"
 msgstr ""
 
-#: build/dashboard.js:5917
+#: build/dashboard.js:6454
 #: src/pages/Home/index.jsx:65
 msgid "Show a notice or newsletter at the top."
 msgstr ""
 
-#: build/dashboard.js:5921
+#: build/dashboard.js:6458
 #: src/pages/Home/index.jsx:70
 msgid "Boost your website performance with ease."
 msgstr ""
 
-#: build/dashboard.js:5922
+#: build/dashboard.js:6459
 #: src/pages/Home/index.jsx:71
 msgid "Performance Settings"
 msgstr ""
 
-#: build/dashboard.js:5926
+#: build/dashboard.js:6463
 #: src/pages/Home/index.jsx:76
 msgid "Choose typography for different heading tags."
 msgstr ""
 
-#: build/dashboard.js:5931
+#: build/dashboard.js:6468
 #: src/pages/Home/index.jsx:82
 msgid "Import the demo content to kickstart your site."
 msgstr ""
 
-#: build/dashboard.js:5932
+#: build/dashboard.js:6469
 #: src/pages/Home/index.jsx:83
 msgid "One Click Demo Import"
 msgstr ""
 
-#: build/dashboard.js:5936
+#: build/dashboard.js:6473
 #: src/pages/Home/index.jsx:88
 msgid "Easily place ads on high conversion areas."
 msgstr ""
 
-#: build/dashboard.js:5937
+#: build/dashboard.js:6474
 #: src/pages/Home/index.jsx:89
 msgid "Advertisement Settings"
 msgstr ""
 
-#: build/dashboard.js:5975
+#: build/dashboard.js:6512
 #: src/pages/Home/index.jsx:126
 msgid "Vilva Tutorial"
 msgstr ""
 
-#: build/dashboard.js:5977
+#: build/dashboard.js:6514
 #: src/pages/Home/index.jsx:128
-msgid "How to install and activate Vilva free WordPress Theme | Vilva"
+msgid "How To Start A Blog | STEP-BY-STEP Tutorial | Vilva WordPress Theme"
 msgstr ""
 
-#: build/dashboard.js:5983
+#: build/dashboard.js:6520
 #: src/pages/Home/index.jsx:131
 msgid "Quick Customizer Settings"
 msgstr ""
 
-#: build/dashboard.js:5984
-#: build/dashboard.js:5993
+#: build/dashboard.js:6521
+#: build/dashboard.js:6530
 #: src/pages/Home/index.jsx:132
 #: src/pages/Home/index.jsx:143
 msgid "Go To Customizer"
 msgstr ""
 
-#: build/dashboard.js:5992
+#: build/dashboard.js:6529
 #: src/pages/Home/index.jsx:142
 msgid "More features with Pro version"
 msgstr ""
 
-#: build/dashboard.js:6037
+#: build/dashboard.js:6574
 #: src/pages/Offers/index.jsx:9
 msgid "Theme Club"
 msgstr ""
 
-#: build/dashboard.js:6041
+#: build/dashboard.js:6578
 #: src/pages/Offers/index.jsx:14
 msgid "Sales Funnel"
 msgstr ""
 
-#: build/dashboard.js:6045
+#: build/dashboard.js:6582
 #: src/pages/Offers/index.jsx:19
 msgid "Custom Fonts"
 msgstr ""
 
-#: build/dashboard.js:6049
+#: build/dashboard.js:6586
 #: src/pages/Offers/index.jsx:24
 msgid "VIP Site Care"
 msgstr ""
 
-#: build/dashboard.js:6054
+#: build/dashboard.js:6591
 #: src/pages/Offers/index.jsx:32
 msgid "Theme Installation & Setup"
 msgstr ""
 
-#: build/dashboard.js:6058
+#: build/dashboard.js:6595
 #: src/pages/Offers/index.jsx:37
 msgid "GDPR Compliance"
 msgstr ""
 
-#: build/dashboard.js:6062
+#: build/dashboard.js:6599
 #: src/pages/Offers/index.jsx:42
 msgid "Must Have SEO Setup"
 msgstr ""
 
-#: build/dashboard.js:6066
+#: build/dashboard.js:6603
 #: src/pages/Offers/index.jsx:47
 msgid "Must Have Plugins Setup"
 msgstr ""
 
-#: build/dashboard.js:6070
+#: build/dashboard.js:6607
 #: src/pages/Offers/index.jsx:52
 msgid "VIP Support"
 msgstr ""
 
-#: build/dashboard.js:6122
+#: build/dashboard.js:6659
 #: src/pages/StarterSites/index.jsx:8
 msgid "Vilva Pro"
 msgstr ""
 
-#: build/dashboard.js:6124
+#: build/dashboard.js:6661
 #: src/pages/StarterSites/index.jsx:10
 msgid "https://blossomthemesdemo.com/vilva-pro/"
 msgstr ""
 
-#: build/dashboard.js:6126
+#: build/dashboard.js:6663
 #: src/pages/StarterSites/index.jsx:13
 msgid "Fashion"
 msgstr ""
 
-#: build/dashboard.js:6128
+#: build/dashboard.js:6665
 #: src/pages/StarterSites/index.jsx:15
 msgid "https://blossomthemesdemo.com/vilva-fashion/"
 msgstr ""
 
-#: build/dashboard.js:6130
+#: build/dashboard.js:6667
 #: src/pages/StarterSites/index.jsx:18
 msgid "Travel"
 msgstr ""
 
-#: build/dashboard.js:6132
+#: build/dashboard.js:6669
 #: src/pages/StarterSites/index.jsx:20
 msgid "https://blossomthemesdemo.com/vilva-pro-travel/"
 msgstr ""
 
-#: build/dashboard.js:6134
+#: build/dashboard.js:6671
 #: src/pages/StarterSites/index.jsx:23
 msgid "Parenting"
 msgstr ""
 
-#: build/dashboard.js:6136
+#: build/dashboard.js:6673
 #: src/pages/StarterSites/index.jsx:25
 msgid "https://blossomthemesdemo.com/vilva-pro-parenting/"
 msgstr ""
 
-#: build/dashboard.js:6138
+#: build/dashboard.js:6675
 #: src/pages/StarterSites/index.jsx:28
 msgid "Recipe"
 msgstr ""
 
-#: build/dashboard.js:6140
+#: build/dashboard.js:6677
 #: src/pages/StarterSites/index.jsx:30
 msgid "https://blossomthemesdemo.com/vilva-pro-recipe/"
 msgstr ""
 
-#: build/dashboard.js:6149
+#: build/dashboard.js:6686
 #: src/pages/StarterSites/index.jsx:42
 msgid "https://blossomthemes.com/theme-demo/?theme=vilva-pro&utm_source=vilva&utm_medium=dashboard&utm_campaign=theme_demo"
 msgstr ""
 
-#: build/dashboard.js:6152
+#: build/dashboard.js:6689
 #: src/pages/StarterSites/index.jsx:43
 msgid "View All Demos"
 msgstr ""
 
-#: build/dashboard.js:6182
+#: build/dashboard.js:6719
 #: src/pages/UsefulPlugins/index.jsx:7
 msgid "WP Delicious – Best WordPress Recipe Plugin"
 msgstr ""
 
-#: build/dashboard.js:6183
+#: build/dashboard.js:6720
 #: src/pages/UsefulPlugins/index.jsx:8
 msgid "A powerful recipe plugin to create and display recipes for bloggers. SEO optimized and Schema-friendly to rank recipes higher on search engines."
 msgstr ""
 
-#: build/dashboard.js:6187
+#: build/dashboard.js:6724
 #: src/pages/UsefulPlugins/index.jsx:13
 msgid "BlossomThemes Toolkit provides you necessary widgets for better and effective blogging."
 msgstr ""
 
-#: build/dashboard.js:6191
+#: build/dashboard.js:6728
 #: src/pages/UsefulPlugins/index.jsx:18
 msgid "Easily add email subscription form to your website using shortcode and widget."
 msgstr ""
 
-#: build/dashboard.js:6194
+#: build/dashboard.js:6731
 #: src/pages/UsefulPlugins/index.jsx:22
 msgid "Contact Form 7"
 msgstr ""
 
-#: build/dashboard.js:6195
+#: build/dashboard.js:6732
 #: src/pages/UsefulPlugins/index.jsx:23
 msgid "Just another contact form plugin. Simple but flexible."
 msgstr ""
 
-#: build/dashboard.js:6199
+#: build/dashboard.js:6736
 #: src/pages/UsefulPlugins/index.jsx:28
 msgid "Regenerate the thumbnails for one or more of your image uploads. Useful when changing their sizes or your theme."
 msgstr ""
 
-#: build/dashboard.js:6202
+#: build/dashboard.js:6739
 #: src/pages/UsefulPlugins/index.jsx:32
 msgid "AffiliateX – Best Amazon Affiliate WordPress Plugin"
 msgstr ""
 
-#: build/dashboard.js:6203
+#: build/dashboard.js:6740
 #: src/pages/UsefulPlugins/index.jsx:33
 msgid "Create a professional-looking affiliate websites with highly customizable blocks that help in increasing the conversion rate and boost your affiliate income."
 msgstr ""
 
-#: build/dashboard.js:6207
+#: build/dashboard.js:6744
 #: src/pages/UsefulPlugins/index.jsx:38
 msgid "Formerly 'Instagram Feed'. Display clean, customizable, and responsive Instagram feeds from multiple accounts. Supports Instagram oEmbeds."
 msgstr ""
 
-#: build/dashboard.js:6335
+#: build/dashboard.js:6872
 #: src/pages/UsefulPlugins/index.jsx:176
 msgid "Installing..."
 msgstr ""
 
-#: build/dashboard.js:6341
+#: build/dashboard.js:6878
 #: src/pages/UsefulPlugins/index.jsx:186
 msgid "Activating..."
 msgstr ""
 
-#: build/dashboard.js:6344
+#: build/dashboard.js:6881
 #: src/pages/UsefulPlugins/index.jsx:191
 msgid "Activated"
 msgstr ""
 
-#: build/dashboard.js:6390
+#: build/dashboard.js:6927
 #: src/pages/index.js:21
 msgid "Starter Sites"
 msgstr ""
 
-#: build/dashboard.js:6396
+#: build/dashboard.js:6933
 #: src/pages/index.js:26
 msgid "Free vs Pro"
 msgstr ""
 
-#: build/dashboard.js:6402
+#: build/dashboard.js:6939
 #: src/pages/index.js:31
 msgid "Offers"
 msgstr ""
 
-#: build/dashboard.js:6408
+#: build/dashboard.js:6945
 #: src/pages/index.js:36
 msgid "FAQs"
 msgstr ""
 
-#: build/dashboard.js:6414
+#: build/dashboard.js:6951
 #: src/pages/index.js:41
 msgid "Useful Plugins"
 msgstr ""
