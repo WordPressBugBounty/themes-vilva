@@ -263,7 +263,7 @@ function vilva_content_start(){
 
         if ( is_shop() ) {
             $background_image = get_theme_mod( 'shop_bg_image' );
-        }elseif( is_product_category() ){
+        }elseif( is_product_category() || is_product_tag()){
             $cat_id = get_queried_object_id();
             $thumbnail_id = get_term_meta( $cat_id, 'thumbnail_id', true );
             $background_image = wp_get_attachment_url( $thumbnail_id );

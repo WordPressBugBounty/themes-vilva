@@ -34,36 +34,41 @@ function vilva_add_sidebar_layout_box(){
 }
 add_action( 'add_meta_boxes', 'vilva_add_sidebar_layout_box' );
 
-$vilva_sidebar_layout = array(    
-    'default-sidebar'=> array(
-    	 'value'     => 'default-sidebar',
-    	 'label'     => __( 'Default Sidebar', 'vilva' ),
-    	 'thumbnail' => esc_url( get_template_directory_uri() . '/images/default-sidebar.png' ),
-   	),
-    'no-sidebar'     => array(
-    	 'value'     => 'no-sidebar',
-    	 'label'     => __( 'Full Width', 'vilva' ),
-    	 'thumbnail' => esc_url( get_template_directory_uri() . '/images/full-width.png' ),
-   	),
-    'centered'     => array(
-    	 'value'     => 'centered',
-    	 'label'     => __( 'Full Width Centered', 'vilva' ),
-    	 'thumbnail' => esc_url( get_template_directory_uri() . '/images/full-width-centered.png' ),
-   	),    
-    'left-sidebar' => array(
-         'value'     => 'left-sidebar',
-    	 'label'     => __( 'Left Sidebar', 'vilva' ),
-    	 'thumbnail' => esc_url( get_template_directory_uri() . '/images/left-sidebar.png' ),         
-    ),
-    'right-sidebar' => array(
-         'value'     => 'right-sidebar',
-    	 'label'     => __( 'Right Sidebar', 'vilva' ),
-    	 'thumbnail' => esc_url( get_template_directory_uri() . '/images/right-sidebar.png' ),         
-     )    
-);
+if( ! function_exists( 'vilva_get_sidebar_layout_data' ) ){
+    function vilva_get_sidebar_layout_data(){
+        return array(    
+            'default-sidebar'=> array(
+                'value'     => 'default-sidebar',
+                'label'     => __( 'Default Sidebar', 'vilva' ),
+                'thumbnail' => esc_url( get_template_directory_uri() . '/images/default-sidebar.png' ),
+                ),
+            'no-sidebar'     => array(
+                'value'     => 'no-sidebar',
+                'label'     => __( 'Full Width', 'vilva' ),
+                'thumbnail' => esc_url( get_template_directory_uri() . '/images/full-width.png' ),
+                ),
+            'centered'     => array(
+                'value'     => 'centered',
+                'label'     => __( 'Full Width Centered', 'vilva' ),
+                'thumbnail' => esc_url( get_template_directory_uri() . '/images/full-width-centered.png' ),
+                ),    
+            'left-sidebar' => array(
+                'value'     => 'left-sidebar',
+                'label'     => __( 'Left Sidebar', 'vilva' ),
+                'thumbnail' => esc_url( get_template_directory_uri() . '/images/left-sidebar.png' ),         
+            ),
+            'right-sidebar' => array(
+                'value'     => 'right-sidebar',
+                'label'     => __( 'Right Sidebar', 'vilva' ),
+                'thumbnail' => esc_url( get_template_directory_uri() . '/images/right-sidebar.png' ),         
+            ),
+        );
+    }
+}
 
 function vilva_sidebar_layout_callback(){
-    global $post , $vilva_sidebar_layout;
+    global $post;
+    $vilva_sidebar_layout = vilva_get_sidebar_layout_data();
     wp_nonce_field( basename( __FILE__ ), 'vilva_nonce' ); ?> 
     <table class="form-table">
         <tr>
@@ -91,7 +96,7 @@ function vilva_sidebar_layout_callback(){
 }
 
 function vilva_save_sidebar_layout( $post_id ){
-    global $vilva_sidebar_layout , $post;
+    $vilva_sidebar_layout = vilva_get_sidebar_layout_data();
 
     // Verify the nonce before proceeding.
     if ( !isset( $_POST[ 'vilva_nonce' ] ) || !wp_verify_nonce( $_POST[ 'vilva_nonce' ], basename( __FILE__ ) ) )
