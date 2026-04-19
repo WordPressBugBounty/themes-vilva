@@ -16,3 +16,7 @@
    margin-top: 10px;
    line-height: 1;
 }
+
+#accordion-section-vilva_page_view_pro .accordion-section-title::after{
+   content: none;
+}
